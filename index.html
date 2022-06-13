@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--чтобы корректно отображались правила media-->
+    <title>Легенда цветов</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link type="img/jpg" sizes="32x32" rel="icon" href="images/icon.jpg">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="images/logo.svg" alt=""></li>
+            <li> <a href="history.html">История </a></li>
+            <li> <a href="characteristics.html">Характеристика</a></li>
+            <li> <a href="care.html">Уход</a></li>
+            <li> <a href="#choose">Выбрать букет</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Познакомьтесь<br> с историями<br> цветов</h1>
+        <div class="header__img"></div>
+    </header>
+    <div id="choose" class="choose">
+        <h1>Выбери свой букет и заполни форму</h1>
+        <div class="flowers">
+            <div class="photo_1-3">
+                <figure>
+                    <img src="images/1.jpg">
+                    <figcaption>1</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/2.jpg">
+                    <figcaption>2</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/3.jpg">
+                    <figcaption>3</figcaption>
+                </figure>
+            </div>
+            <div class="photo_4-6">
+                <figure>
+                    <img src="images/4.jpg">
+                    <figcaption>4</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/5.jpg">
+                    <figcaption>5</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/6.jpg">
+                    <figcaption>6</figcaption>
+                </figure>
+            </div>
+        </div>
+        <form>
+            <h2>Форма заказа</h2>
+            <div class="surname">
+                <label>Фамилия:</label>
+                <input type="text">
+            </div>
+            <div class="name">
+                <label>Имя:</label>
+                <input type="text">
+            </div>
+            <div class="surname">
+                <label>Отчество:</label>
+                <input type="text">
+            </div>
+            <div class="number">
+                <label>Количество букетов:</label>
+                <div class="radio">
+                    <input type="radio" name="1"><span>1</span>
+                    <input type="radio" name="1"><span>2</span>
+                    <input type="radio" name="1"><span>3</span>
+                </div>
+            </div>
+            <div class="email">
+                <label>Email:</label>
+                <input type="email">
+            </div>
+            <div class="country">
+                <label>Страна проживания:</label>
+                <input type="text">
+            </div>
+            <div class="pr">
+                <label>Откуда узнали?</label>
+                <select>
+                    <option>Мама рассказала</option>
+                    <option>Брошюра</option>
+                    <option>Знакомый</option>
+                </select>
+            </div>
+            <div class="flower">
+                <label>Номер букета:</label>
+                <input type="number">
+            </div>
+            <div class="data">
+                <label>Дата заполнения:</label>
+                <input type="text">
+            </div>
+            <div class="submit-button">
+                <input type="submit" value="Отправить форму">
+            </div>
+        </form>
+
+        <footer>
+            <h2>Где мы есть?</h2>
+            <p>По любым вопросам, можете связаться с нами через:</p>
+            <div class="social-media">
+                <a href="https://instagram.com/violetta_merkul?igshid=YmMyMTA2M2Y="><img src="images/instagram.svg" alt="">
+                    <span>Инстаграм</span></a>
+                <a href="https://vk.com/viomerkul"><img src="images/vk.svg" alt="">
+                    <span>ВКонтакте</span></a>
+                <a href=""><img class="telegram-icon" src="images/telegram.svg" alt="">
+                    <span>@viomer</span></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
